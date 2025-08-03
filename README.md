@@ -27,7 +27,7 @@ pkg install git
 
 termux-setup-storage
 
-git clone https://github.com/khenzl/QR-Gen
+git clone https://github.com/Khenzl/QR-Gen
 
 cd QR-Gen
 
