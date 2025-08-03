@@ -35,11 +35,9 @@ echo -e "${G}[•] Setup akses storage Termux...${W}"
 termux-setup-storage
 
 echo -e "${G}[•] Menginstal Python modules...${W}"
-pip install --upgrade pip
 pip install qrcode
 pip install pillow
 pip install requests
-pip install opencv-python-headless
 pip install pyzbar
 
 # Buat folder hasil
