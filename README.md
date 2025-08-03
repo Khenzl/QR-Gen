@@ -27,15 +27,13 @@ pkg install python
 
 pkg install git
 
-pip install qrcode pillow requests
-
-pkg install bash
-
 termux-setup-storage
 
 git clone https://github.com/khenzl/QR-Gen
 
 cd QR-Gen
+
+chmod +x intall.sh
 
 bash install.sh
 
