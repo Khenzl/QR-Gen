@@ -33,7 +33,7 @@ git clone https://github.com/khenzl/QR-Gen
 
 cd QR-Gen
 
-chmod +x intall.sh
+chmod +x install.sh
 
 bash install.sh
 
