@@ -39,7 +39,6 @@ pip install --upgrade pip
 pip install qrcode
 pip install pillow
 pip install requests
-pip install numpy
 pip install opencv-python-headless
 pip install pyzbar
 
