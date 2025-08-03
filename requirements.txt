@@ -1,3 +1,6 @@
 qrcode
 pillow
 requests
+pyzbar
+opencv-python
+numpy
