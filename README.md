@@ -23,8 +23,6 @@
 ```
 pkg update && pkg upgrade
 
-pkg install python
-
 pkg install git
 
 termux-setup-storage
