@@ -23,13 +23,7 @@
 ```
 pkg update && pkg upgrade
 
-pkg install python
-
 pkg install git
-
-pip install qrcode pillow requests
-
-pkg install bash
 
 termux-setup-storage
 

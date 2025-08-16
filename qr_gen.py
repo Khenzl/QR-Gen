@@ -31,15 +31,15 @@ def banner():
   ░██████   ░██     ░██           ░█████░█  ░███████  ░██    ░██ 
        ░██                                                       
         ░██ 
-{B}            ╔════════════════════════════════════╗
-            ║       {Y}QR-Code Tool by Khenzl{B}       ║
-            ╠════════════════════════════════════╣
-            ║{C} [1] {G}Generate QR dari Teks          {B}║
-            ║{C} [2] {G}Generate QR dari File Teks     {B}║
-            ║{C} [3] {G}Decode QR dari Gambar (Online) {B}║
-            ║{C} [4] {G}Simpan Hasil ke Storage        {B}║
-            ║{Y} [0] {R}Keluar                         {B}║
-            ╚════════════════════════════════════╝{W}
+{B}     ╔════════════════════════════════════════════════════╗
+     ║     {Y}QR-Code Tool by Khenzl{B} - {R}Sang Topi Hitam{B}       ║
+     ╠════════════════════════════════════════════════════╣
+     ║  {C} [1] {G}Generate QR dari Teks                        {B}║
+     ║  {C} [2] {G}Generate QR dari File Teks                   {B}║
+     ║  {C} [3] {G}Decode QR dari Gambar (Online)               {B}║
+     ║  {C} [4] {G}Simpan Hasil ke Storage                      {B}║
+     ║  {Y} [0] {R}Keluar                                       {B}║
+     ╚════════════════════════════════════════════════════╝{W}
 """)
 
 
@@ -192,7 +192,7 @@ def main():
     try:
         while True:
             banner()
-            pilih = input(f"{B}[?] Pilih menu: {W}")
+            pilih = input(f"{G}[?] Pilih menu: {W}")
             if pilih == "1":
                 generate_qr_text()
             elif pilih == "2":
